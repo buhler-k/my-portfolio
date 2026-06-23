@@ -1,7 +1,11 @@
 /*
  * Globals
  */
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* Custom default button */
 .btn-light,
