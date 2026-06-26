@@ -75,3 +75,8 @@ body {
   height: 153.41px;
   width: 285,656px;
 }
+
+ header {
+  background: black;
+  opacity: 40%;
+ }

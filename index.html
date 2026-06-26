@@ -197,24 +197,25 @@
         <div class="overlay">
 
         </div>
-        <header class="px-5 p-3 text-white">
+        <header class="px-5 p-3 text-white fixed-top">
           <div>
             <h3 class="float-md-start text-center">Portfolio</h3>
             <nav class="nav nav-masthead justify-content-center float-md-end">
               <a class="nav-link fw-bold py-1 px-0 active"aria-current="page"href="#">Home</a>
-              <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
-              <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
+              <a class="nav-link fw-bold py-1 px-0" href="#about-me">About Me</a>
+              <a class="nav-link fw-bold py-1 px-0" href="#projects">Projects</a>
+              <a class="nav-link fw-bold py-1 px-0" href="#contact">Contact</a>
             </nav>
           </div>
         </header>
       
-        <main class="d-flex flex-column align-items-center justify-content-center h-70 text-center">
-          <h1 class="display-3">I am Buhle Khoza.</h1>
+        <div class="d-flex flex-column align-items-center justify-content-center text-center min-vh-100">
+          <h1 class="display-3" >I am Buhle Khoza.</h1>
           <p class="lead"> FullStack Web Developer | Business-Tech Enthusiast | </p>
-        </main>
+        </div>
       </div>
     
-    <section>
+    <section id="about-me">
       <div class="container p-5">
           <div class="card">
               <div class="card-body">
@@ -251,7 +252,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="projects">
       <div class="container">
         <h1 class="text-center"><mark>PROJECTS</mark></h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -351,7 +352,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="contact">
       <div class="container p-5">
           <div class="card p-3">
               <div class="card-body px-5 p-3">
@@ -387,5 +388,11 @@
 
       </div>
     </section>
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-3">
+        <p>Developed by Buhle N. Khoza using Bootstrap for portfolio purposes.</p>
+      </div>
+
+    </footer>
   </body>
 </html>
